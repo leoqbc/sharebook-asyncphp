@@ -1,0 +1,7 @@
+{
+    "require": {
+        "swoole/ide-helper": "^5.1",
+        "guzzlehttp/guzzle": "^7.9",
+        "ext-json": "*"
+    }
+}
