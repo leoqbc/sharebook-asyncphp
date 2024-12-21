@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  swoole:
+    image: phpswoole/swoole:5.1-php8.3-alpine
+    volumes:
+      - ".:/pocs"
+    ports:
+      - "9501:9501"
+    working_dir: /pocs
+    tty: true
